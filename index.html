@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpendWise Dashboard</title>
+    
+    <!-- Google Fonts: Inter and Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Link to your style.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-inter">
+
+    <!-- Dashboard Main Layout Workspace Container Framework -->
+    <div class="dashboard-grid">
+        
+        <!-- A Sidebar/Navigation Menu Component Block -->
+        <aside class="sidebar">
+            <div class="logo font-jakarta">SpendWise</div>
+            <nav class="nav-menu">
+                <a href="#" class="nav-item active">Dashboard</a>
+                <a href="#" class="nav-item">Analytics</a>
+                <a href="#" class="nav-item">Budgets</a>
+                <a href="#" class="nav-item">Settings</a>
+            </nav>
+        </aside>
+
+        <!-- Main Display Content Workspace Container Area -->
+        <div class="main-content">
+            
+            <!-- A Header Component Block Layout -->
+            <header class="dashboard-header">
+                <h1 class="font-jakarta">Dashboard Overview</h1>
+                <div class="user-profile">Mohamed M.</div>
+            </header>
+
+            <!-- Six Category Cards Grid Track View Container Blocks Layout -->
+            <main class="cards-grid">
+                
+                <!-- Card 1: Food -->
+                <div class="category-card food">
+                    <div class="card-header">
+                        <span class="card-title">Food & Dining</span>
+                        <span class="card-icon">🍔</span>
+                    </div>
+                    <div class="card-amount font-jakarta">$350.00</div>
+                    <div class="card-status">Budget: $500.00</div>
+                </div>
+
+                <!-- Card 2: Transport -->
+                <div class="category-card transport">
+                    <div class="card-header">
+                        <span class="card-title">Transport</span>
+                        <span class="card-icon">🚗</span>
+                    </div>
+                    <div class="card-amount font-jakarta">$120.00</div>
+                    <div class="card-status">Budget: $200.00</div>
+                </div>
+
+                <!-- Card 3: Rent -->
+                <div class="category-card rent">
+                    <div class="card-header">
+                        <span class="card-title">Rent & Housing</span>
+                        <span class="card-icon">🏠</span>
+                    </div>
+                    <div class="card-amount font-jakarta">$1,200.00</div>
+                    <div class="card-status">Fixed Expense</div>
+                </div>
+
+                <!-- Card 4: Entertainment -->
+                <div class="category-card entertainment">
+                    <div class="card-header">
+                        <span class="card-title">Entertainment</span>
+                        <span class="card-icon">🎬</span>
+                    </div>
+                    <div class="card-amount font-jakarta">$95.00</div>
+                    <div class="card-status">Budget: $150.00</div>
+                </div>
+
+                <!-- Card 5: Savings -->
+                <div class="category-card savings">
+                    <div class="card-header">
+                        <span class="card-title">Savings</span>
+                        <span class="card-icon">💰</span>
+                    </div>
+                    <div class="card-amount font-jakarta">$450.00</div>
+                    <div class="card-status">Goal: $500.00/mo</div>
+                </div>
+
+                <!-- Card 6: Utilities -->
+                <div class="category-card utilities">
+                    <div class="card-header">
+                        <span class="card-title">Utilities</span>
+                        <span class="card-icon">⚡</span>
+                    </div>
+                    <div class="card-amount font-jakarta">$185.00</div>
+                    <div class="card-status">Budget: $250.00</div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+</body>
+</html>
